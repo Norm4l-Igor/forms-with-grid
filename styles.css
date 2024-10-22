@@ -75,3 +75,31 @@ body {
     width: 150px;
     justify-self: start;
 }
+.info-section {
+    display: grid;
+    gap: 10px;
+    justify-items: end;
+}
+
+.contact-info p {
+    font-size: 1.1rem;
+    color: #14213d;
+}
+
+.contact-info strong {
+    font-size: 1.2rem;
+    color: #14213d;
+}
+
+.social-icons {
+    display: grid;
+    grid-auto-flow: column;
+    gap: 15px;
+    justify-items: center;
+}
+
+.social-icons img {
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+}
