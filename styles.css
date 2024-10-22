@@ -50,3 +50,28 @@ body {
     font-size: 2.5rem;
     color: #14213d;
 }
+.form-section input,
+.form-section textarea {
+    padding: 15px;
+    border: transparent;
+    border-radius: 3px;
+    font-size: 1rem;
+
+}
+
+.form-section textarea {
+    height: 100px;
+    resize: none;
+}
+
+.form-section button {
+    padding: 10px;
+    background-color: #14213d;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    width: 150px;
+    justify-self: start;
+}
