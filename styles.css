@@ -103,3 +103,37 @@ body {
     height: 35px;
     cursor: pointer;
 }
+input {
+    background-color: transparent;
+    border-bottom: #14213d;
+    border: none;
+
+
+}
+
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px solid #002060 !important;
+    background-color: transparent;
+    font-size: 16px;
+    color: #333;
+    outline: none;
+}
+
+
+input:focus,
+textarea:focus {
+    border-bottom: 2px solid #004080 !important;
+    outline: none;
+}
+
+
+input::placeholder,
+textarea::placeholder {
+    color: #888;
+}
