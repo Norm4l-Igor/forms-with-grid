@@ -32,3 +32,21 @@ body {
     border-radius: 10px;
 
 }
+
+.content-section {
+    display: grid;
+    grid-template-rows: 1;
+    gap: 20px;
+    border-bottom: #14213d;
+}
+
+
+.form-section form {
+    display: grid;
+    gap: 15px;
+}
+
+.form-section h1 {
+    font-size: 2.5rem;
+    color: #14213d;
+}
